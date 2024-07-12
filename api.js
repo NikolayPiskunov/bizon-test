@@ -58,14 +58,9 @@ let user =
 
 let api_path_templates =
     [
-        "/api/items",
         "/api/items/%id%/%name%",
         "/api/items/%id%/%role%",
         "/api/items/%id%/%salary%",
-        "/api/items/%id%/%saly%",
-        "/api/items/%id%/%salary%/%id%",
-        "/api/items/%id%/%salary%/%id",
-        "/api/items/%id%/%salary%/id%",
     ];
 
 let api = new Api();
